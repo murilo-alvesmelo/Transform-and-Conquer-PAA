@@ -1,6 +1,6 @@
 # Closest Pair of Points
 
-**Número da Lista**: 3<br>
+**Número da Lista**: 4<br>
 **Conteúdo da Disciplina**: Dividir e Conquistar<br>
 
 ## Alunos
