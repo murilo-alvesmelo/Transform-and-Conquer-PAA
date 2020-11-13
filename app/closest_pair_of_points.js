@@ -6,6 +6,8 @@ class Point {
   }
 }
 
+let point;
+
 // Find distance between two points
 const dist = (p1, p2) => {
   return Math.sqrt(
@@ -24,6 +26,7 @@ const bruteForce = (points) => {
     for (let j = i + 1; j < points.length; j++) {
       if (dist(points[i], points[j]) < minVal) {
         minVal = dist(points[i], points[j]);
+        point = { origin: points[i], destionation: points[j] };
       }
     }
   }
@@ -46,6 +49,7 @@ const stripClosest = (strip, d) => {
     let j = i + 1;
     while (j < strip.length && ((strip[j].y - strip[i].y) < minVal)) {
       minVal = dist(strip[i], strip[j]);
+      point = { origin: strip[i], destionation: strip[j] };
       j += 1;
     }
   }
@@ -61,7 +65,7 @@ const closestUtil = (P, Q, n) => {
     return bruteForce(P);
   }
 
-  let mid = n / 2;
+  let mid = Math.floor(n / 2);
   let midPoint = P[mid];
 
   let dl = closestUtil(P.slice(0, mid), Q, mid);
@@ -88,10 +92,41 @@ const closest = (points) => {
   return closestUtil(P, Q, points.length);
 }
 
-const points = [
-  new Point(2, 3), new Point(12, 30),
-  new Point(40, 50), new Point(5, 1),
-  new Point(12, 10), new Point(3, 4)
-];
+const CANVAS_SIZE = 500;
+const POINT_SIZE = 2;
+const POINTS_QUANTITY = 15;
 
-console.log(`The smallest distance is ${closest(points)}`);
+const getRandomInt = (max) => {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+
+const getRandomPoint = () => {
+  return new Point(getRandomInt(CANVAS_SIZE), getRandomInt(CANVAS_SIZE));
+}
+
+const draw = (x, y, canvas) => {
+  canvas.beginPath();
+  canvas.arc(x, y, POINT_SIZE, 0, Math.PI * 2, true);
+  canvas.fill();
+}
+
+const line = (O, D, canvas) => {
+  canvas.moveTo(O.x, O.y);
+  canvas.lineTo(D.x, D.y);
+  canvas.stroke();
+}
+
+window.onload = () => {
+  const canvas = document.getElementById('canvas').getContext('2d');
+
+  const points = [...new Array(POINTS_QUANTITY)].map(() => getRandomPoint());
+
+  points.forEach(point => {
+    draw(point.x, point.y, canvas);
+  });
+
+  const distance = closest(points);
+  console.log(distance);
+
+  line(point.origin, point.destionation, canvas);
+}
