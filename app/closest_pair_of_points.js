@@ -107,9 +107,9 @@ var closestPair = function _closestPair(Px, Py) {
 var sortX = function (a, b) { return (a.x < b.x) ? -1 : ((a.x > b.x) ? 1 : 0); }
 var sortY = function (a, b) { return (a.y < b.y) ? -1 : ((a.y > b.y) ? 1 : 0); }
 
-const CANVAS_SIZE = 500;
+const CANVAS_SIZE = 590;
 const POINT_SIZE = 2;
-const POINTS_QUANTITY = 15;
+const POINTS_QUANTITY = 20;
 
 const getRandomInt = (max) => {
   return Math.floor(Math.random() * Math.floor(max));
