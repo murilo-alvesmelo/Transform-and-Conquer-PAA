@@ -13,6 +13,8 @@
 O projeto consiste na demonstração de um canvas 2D com pontos onde são usados os algoritmos de Merge Sort & Closest Pair of Points utilizando a aproximação de Dividir e Conquistar para melhor eficiência.
 
 ## Screenshots
+![](https://i.imgur.com/KkNOaD9.png)
+![](https://i.imgur.com/TMpRhJW.png)
 
 ## Instalação 
 **Linguagem**: HTML/CSS/JavaScript<br>
