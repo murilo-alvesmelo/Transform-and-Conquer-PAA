@@ -19,9 +19,6 @@ O ambiente onde foram desenvolvidos os testes possui as seguintes configuraçõe
 - Banda: 5GHz
 - Adaptador de rede: Intel(R) Dual Band Wireless-AC 3165
 
-#### Objetivo do BitTorrent
-Como exemplo, vamos citar um programa que muitos conhecem, o BitTorrent, desenvolvido em 2001, uma forma que permitia baixar as partes dos arquivos de varias outras pessoas ao mesmo tempo, resultando então na velocidade do download.
-
 #### Especificações do BitTorrent
 
 A avaliação é feita considerando o tempo de execução do download nas seguintes condições:
@@ -36,3 +33,6 @@ A avaliação é feita considerando o tempo de execução do download nas seguin
 ![Captura de tela 2022-06-29 211815](https://user-images.githubusercontent.com/83835393/176569400-b08c3afb-c8f9-45f8-8a71-e13416729bd2.png)
 ## 2. Objetivo
 O objetivo do projeto é analisar a estratégia Transform and Conquer verificando o quao e efetiva e mostrando alguns casos de uso do dia a dia.
+
+#### Objetivo do BitTorrent
+Como exemplo, vamos citar um programa que muitos conhecem, o BitTorrent, desenvolvido em 2001, uma forma que permitia baixar as partes dos arquivos de varias outras pessoas ao mesmo tempo, resultando então na velocidade do download.
