@@ -73,6 +73,8 @@ Com a imagem gerada, o algoritmo calcula a distancia entre todos os pontos em pi
 O algoritmo possui um botão que gera novamente uma imagem e repete a execução diversas vezes até que o programa seja fechado
 
 ![image](https://user-images.githubusercontent.com/91572824/176576727-88507895-1429-488f-b031-055f71f0621c.png)
+
+
 ![image](https://user-images.githubusercontent.com/91572824/176576900-ceb5fa5f-8854-4dee-b8db-a7ea8a400848.png)
 
 ## 2. Objetivo
