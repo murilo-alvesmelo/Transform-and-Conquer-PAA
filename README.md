@@ -39,12 +39,12 @@ A implementação é baseada em 2 códigos sendo um em C e outro em Javascript.
 - HORSPOOL
 
 A idéia básica do algoritmo BMH é caminhar na comparação do texto com o padrão, o algoritmo obtém informação sobre o texto que está sendo pesquisado. uma vez que ocorra uma falha numa comparação em  linha  possa passar para um ponto mais à frente no texto.
-- PONTOS PROXIMOS
-
-consiste na demonstração de um canvas 2D com pontos onde são usados os algoritmos de Merge Sort & Closest Pair of Points utilizando a aproximação de Dividir e Conquistar para melhor eficiência.
 
 ![image](https://user-images.githubusercontent.com/91572824/176574365-f25475d2-981a-42f1-8413-81209dc33354.png)
 ![image](https://user-images.githubusercontent.com/91572824/176575260-9f7267a8-1db7-46d1-bb0e-6f9b2377e1af.png)
+- PONTOS PROXIMOS
+
+consiste na demonstração de um canvas 2D com pontos onde são usados os algoritmos de Merge Sort & Closest Pair of Points utilizando a aproximação de Dividir e Conquistar para melhor eficiência.
 ![image](https://user-images.githubusercontent.com/91572824/176576727-88507895-1429-488f-b031-055f71f0621c.png)
 ![image](https://user-images.githubusercontent.com/91572824/176576796-41654120-4145-4b7f-a8d2-3758473eafcd.png)
 ![image](https://user-images.githubusercontent.com/91572824/176576900-ceb5fa5f-8854-4dee-b8db-a7ea8a400848.png)
