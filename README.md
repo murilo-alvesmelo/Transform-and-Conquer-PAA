@@ -1,29 +1,38 @@
-# Closest Pair of Points
+﻿# Transform and Conquer - Projeto e Análise de Algoritmos
 
-**Número da Lista**: 4<br>
-**Conteúdo da Disciplina**: Dividir e Conquistar<br>
+![image](https://user-images.githubusercontent.com/83835393/171540760-42181cb2-0cc5-4cf6-8da5-b96232ac1dac.png)
 
-## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| 16/0007763  |  Guilherme Siqueira Brandão |
-| 16/0026822  |  Djorkaeff Alexandre |
+Universidade Federal do Tocantins - Ciência da Computação
 
-## Sobre
-O projeto consiste na demonstração de um canvas 2D com pontos onde são usados os algoritmos de Merge Sort & Closest Pair of Points utilizando a aproximação de Dividir e Conquistar para melhor eficiência.
+Pedro Thomas Barros de Oliveira, Murilo Alves Melo & Pablo Henrique Silva
 
-## Screenshots
-![](https://i.imgur.com/KkNOaD9.png)
-![](https://i.imgur.com/TMpRhJW.png)
 
-## Instalação 
-**Linguagem**: HTML/CSS/JavaScript<br>
-**Framework**: Não se aplica<br>
+## 1. Introdução
 
-Você só precisará de um browser com Javascript habilitado.
-Para executar o projeto basta abrir o arquivo `index.html` em qualquer navegador. 
-Caso preferir, você também poderá acessar o projeto acessando o link https://projeto-de-algoritmos.github.io/D-C_ClosestPairOfPoints/
+Transform and Conquer é uma técnica cuja ideia principal é transferir o problema para algumas versões mais fáceis ou semelhantes usando algum procedimento e depois resolver essas versões mais fáceis ou mais simples e combinar essas versões para obter a solução da real.
 
-## Uso
-Não é necessário nenhuma ação por parte do usuário, você só precisa abrir o arquivo `index.html`
-e serão gerados pontos aleatórios e o par de pontos mais próximos terão uma linha traçada entre os mesmos.
+#### Introdução do BitTorrent
+O objetivo desse trabalho é realizar a implementação e comparação de desempenho da técnica divisão e conquista. O programa utilizado foi o Internet Download Manager.
+
+O ambiente onde foram desenvolvidos os testes possui as seguintes configurações: 
+- Oi Internet na Fibra - Banda Larga 200MBps
+- Banda: 5GHz
+- Adaptador de rede: Intel(R) Dual Band Wireless-AC 3165
+
+#### Objetivo do BitTorrent
+Como exemplo, vamos citar um programa que muitos conhecem, o BitTorrent, desenvolvido em 2001, uma forma que permitia baixar as partes dos arquivos de varias outras pessoas ao mesmo tempo, resultando então na velocidade do download.
+
+#### Especificações do BitTorrent
+
+A avaliação é feita considerando o tempo de execução do download nas seguintes condições:
+
+- Download por link direto e download pelo IMD(Internet Download Manager) 
+- Os arquivos foram armazenados tem uma nuvem do Google Drive
+- O tamanho dos arquivos foram: 571Mb, 1GB, 2GB, 3GB e 12GB
+
+
+#### Resultados
+
+![Captura de tela 2022-06-29 211815](https://user-images.githubusercontent.com/83835393/176569400-b08c3afb-c8f9-45f8-8a71-e13416729bd2.png)
+## 2. Objetivo
+O objetivo do projeto é analisar a estratégia Transform and Conquer verificando o quao e efetiva e mostrando alguns casos de uso do dia a dia.

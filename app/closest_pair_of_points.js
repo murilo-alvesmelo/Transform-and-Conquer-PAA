@@ -9,7 +9,7 @@ class Point {
 var mergeSort = function mergeSort(points, comp) {
 	if(points.length < 2) return points;
  
- 
+  
 	var n = points.length,
 		i = 0,
 		j = 0,
