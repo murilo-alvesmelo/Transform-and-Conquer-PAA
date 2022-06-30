@@ -45,15 +45,21 @@ São executados 2 testes nesse algoritmo que buscam pela palavra "Schofield" em 
 ![image](https://user-images.githubusercontent.com/91572824/176574365-f25475d2-981a-42f1-8413-81209dc33354.png)
 
 Teste 1 (Força bruta): 
+
 Foram encontradas 3 ocorrencias da palavra
+
 Ocorreram 3342327 trocas
+
 O algoritmo levou 13 milisegundos para ser executado
 
 ![image](https://user-images.githubusercontent.com/91572824/176575260-9f7267a8-1db7-46d1-bb0e-6f9b2377e1af.png)
 
 Teste 2 (HORSPOOL + Transform and Conquer): 
+
 Foram encontradas 3 ocorrencias da palavra
+
 Ocorreram 457399 trocas
+
 O algoritmo levou 23 milisegundos para ser executado
 
 Conclusão: O algoritmo colocado em teste teve um desempenho pior em tempo se comparado com o algoritmo de força bruta, porém o algoritmo de força bruta efetuou quase dez vezes mais trocas do que o de HORSPOOL + Transform and Conquer, o que dependendo do caso poderia gerar uma exaustão maior na máquina que o executa.
