@@ -68,7 +68,7 @@ Conclusão: O algoritmo colocado em teste teve um desempenho pior em tempo se co
 
 O algoritmo gera uma imagem canvas com 20 pontos pretos na tela, com a imagem gerada é calculada a distancia entre todos os pontos em pixels e a armazena em forma de vetor, então o merge sort(transform and coquer) entra ordenando e recebendo o menor valor entre as distancias, em seguida os pontos com menor distancia aparecem na tela ligados por um traço.
 
-O algoritmo possui um botão que gera novamente uma imagem e repete a execução diversas vezes até que o programa seja fechado
+O algoritmo possui um botão que gera novamente uma imagem e repete a execução diversas vezes até que o programa seja fechado.
 
 ![image](https://user-images.githubusercontent.com/91572824/176576727-88507895-1429-488f-b031-055f71f0621c.png)
 
