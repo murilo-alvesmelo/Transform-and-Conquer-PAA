@@ -68,6 +68,9 @@ Conclusão: O algoritmo colocado em teste teve um desempenho pior em tempo se co
 
 consiste na demonstração de um canvas 2D com pontos onde são usados os algoritmos de Merge Sort & Closest Pair of Points utilizando a aproximação de Dividir e Conquistar para melhor eficiência.
 
+Com a imagem gerada, o algoritmo calcula a distancia entre todos os pontos em pixels e a armazena em forma de vetor, então o merge sort(transform and coquer) entra ordenando e recebendo o menor valor entre as distancias, em seguida o esses pontos aparecem na tela ligados por um traço.
+
+O algoritmo possui um botão que gera novamente uma imagem e repete a execução diversas vezes até que o programa seja fechado
 
 ![image](https://user-images.githubusercontent.com/91572824/176576727-88507895-1429-488f-b031-055f71f0621c.png)
 
