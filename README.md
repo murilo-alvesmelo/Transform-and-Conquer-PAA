@@ -76,7 +76,7 @@ O algoritmo possui um botão que gera novamente uma imagem e repete a execução
 ![image](https://user-images.githubusercontent.com/91572824/176576900-ceb5fa5f-8854-4dee-b8db-a7ea8a400848.png)
 
 ## 2. Objetivo
-O objetivo do projeto é a analise teorica e pratica da estratégia Transform and Conquer verificando em casos como BitTorrent ou diferentes algoritmos de forma com que a eficiencia e funcionalizade do caso seja analisada e comparada em diferentes situações que variam desde download de arquivos de diferentes maquinas como no caso de BitTorrent ou em aplicações de busca ou ordenação como nos casos de implementações de "HORSPOOL + Transform and Conquer" e "PONTOS PROXIMOS". Os casos serão executados, e comparados com outros diferentes tipos de estratégia 
+O objetivo do projeto é a analise teorica e pratica da estratégia Transform and Conquer verificando em casos como BitTorrent ou diferentes algoritmos de forma com que a eficiencia e funcionalizade do caso seja analisada e comparada em diferentes situações que variam desde download de arquivos de diferentes maquinas como no caso de BitTorrent ou em aplicações de busca ou ordenação como nos casos de implementações de "HORSPOOL + Transform and Conquer" e "PONTOS PROXIMOS". Os casos serão executados, e comparados com diferentes estratégias especificas para cada caso em questão, e será analisado e comparado o desempenho de ambas as partes conforme a proposta da execução.
 
 ## 3. Conclusão
  Portando conclui-se que o Transform and conquer é uma boa estratégia, Tendo seus pontos fortes e fracos pois utiliza o merge sort como base sendo assim com base nos algoritmos apresentados Tranform and conquer e importante para varias tarefas do dia a dia tendo seu lugar na Implementação de algoritmos!
