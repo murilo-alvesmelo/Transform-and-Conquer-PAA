@@ -66,9 +66,7 @@ Conclusão: O algoritmo colocado em teste teve um desempenho pior em tempo se co
 
 - PONTOS PROXIMOS
 
-consiste na demonstração de um canvas 2D com pontos onde são usados os algoritmos de Merge Sort & Closest Pair of Points utilizando a aproximação de Dividir e Conquistar para melhor eficiência.
-
-Com a imagem gerada, o algoritmo calcula a distancia entre todos os pontos em pixels e a armazena em forma de vetor, então o merge sort(transform and coquer) entra ordenando e recebendo o menor valor entre as distancias, em seguida o esses pontos aparecem na tela ligados por um traço.
+O algoritmo gera uma imagem canvas com 20 pontos pretos na tela, com a imagem gerada é calculada a distancia entre todos os pontos em pixels e a armazena em forma de vetor, então o merge sort(transform and coquer) entra ordenando e recebendo o menor valor entre as distancias, em seguida os pontos com menor distancia aparecem na tela ligados por um traço.
 
 O algoritmo possui um botão que gera novamente uma imagem e repete a execução diversas vezes até que o programa seja fechado
 
