@@ -31,6 +31,8 @@ A avaliação é feita considerando o tempo de execução do download nas seguin
 #### Resultados
 
 ![Captura de tela 2022-06-29 211815](https://user-images.githubusercontent.com/83835393/176569400-b08c3afb-c8f9-45f8-8a71-e13416729bd2.png)
+
+![image](https://user-images.githubusercontent.com/91572824/176574365-f25475d2-981a-42f1-8413-81209dc33354.png)
 ## 2. Objetivo
 O objetivo do projeto é analisar a estratégia Transform and Conquer verificando o quao e efetiva e mostrando alguns casos de uso do dia a dia.
 
