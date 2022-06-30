@@ -45,8 +45,14 @@ A idéia básica do algoritmo BMH é caminhar na comparação do texto com o pad
 - PONTOS PROXIMOS
 
 consiste na demonstração de um canvas 2D com pontos onde são usados os algoritmos de Merge Sort & Closest Pair of Points utilizando a aproximação de Dividir e Conquistar para melhor eficiência.
+
+
 ![image](https://user-images.githubusercontent.com/91572824/176576727-88507895-1429-488f-b031-055f71f0621c.png)
+
+
 ![image](https://user-images.githubusercontent.com/91572824/176576796-41654120-4145-4b7f-a8d2-3758473eafcd.png)
+
+
 ![image](https://user-images.githubusercontent.com/91572824/176576900-ceb5fa5f-8854-4dee-b8db-a7ea8a400848.png)
 
 ## 2. Objetivo
