@@ -36,3 +36,6 @@ O objetivo do projeto é analisar a estratégia Transform and Conquer verificand
 
 #### Objetivo do BitTorrent
 Como exemplo, vamos citar um programa que muitos conhecem, o BitTorrent, desenvolvido em 2001, uma forma que permitia baixar as partes dos arquivos de varias outras pessoas ao mesmo tempo, resultando então na velocidade do download.
+
+## 3. Conclusão
+ Portando conclui-se que o Transform and conquer é uma boa estratégia, Tendo seus pontos fortes e fracos pois utiliza o merge sort como base sendo assim com base nos algoritmos apresentados Tranform and conquer e importante para varias tarefas do dia a dia tendo seu lugar na Implementação de algoritmos!
